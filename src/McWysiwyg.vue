@@ -92,7 +92,7 @@
       <div class="wysiwyg-body">
         <div
                 :ref="uid"
-                v-on:input="updateContent"
+                v-on:focusout="updateContent"
                 class="wysiwyg-editor"
                 contenteditable
                 :style="{'min-height': `${height - 50}px`}">
